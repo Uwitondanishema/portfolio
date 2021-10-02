@@ -4,13 +4,35 @@
         "title": "Fashion shop landing page",
         "image": "/images/desktop.png",
         "githubRepo":"",
-        "liveSiteLink":""
+        "liveSiteLink":"",
+        "description": "1Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem inventore in eveniet totam repellat non dolorem praesentium, aspernatur ut aperiam!",
+        "langs": ["HTML/CSS", "javascript", "API"]
     },
     {
         "id": 2,
         "title": "Fashion shop landing page",
         "image": "/images/scrnli_9_2_2021_11-30-44 AM.png",
         "githubRepo":"",
-        "liveSiteLink":""
+        "liveSiteLink":"",
+        "description": "2Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem inventore in eveniet totam repellat non dolorem praesentium, aspernatur ut aperiam!",
+        "langs": ["reactjs", "firebase", "expressjs"]
+    },
+    {
+        "id": 3,
+        "title": "static blog site",
+        "image": "/images/scrnli_9_2_2021_11-30-44 AM.png",
+        "githubRepo":"",
+        "description": "3Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem inventore in eveniet totam repellat non dolorem praesentium, aspernatur ut aperiam!",
+        "liveSiteLink":"http://meme.dev",
+        "langs": ["nodejs", "Expressjs", "Mongodb", "Ejs", "sass"]
+    },  
+     {
+        "id": 4,
+        "title": "School report generator",
+        "image": "/images/desktop.png",
+        "githubRepo":"",
+        "liveSiteLink":"",
+        "description": "4Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem inventore in eveniet totam repellat non dolorem praesentium, aspernatur ut aperiam!",
+        "langs": ["Nextjs", "reactjs", "sanity.io", "sass", "firebase"]
     }
 ]

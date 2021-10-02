@@ -118,31 +118,34 @@ resume.addEventListener("click", ()=>{
 
 const  setProjects =  async (callback) => {
     jsonProjects = await fetch("api.json").then(data => data.json())
-
- const projectDomAarray = jsonProjects.map(({id, title, image, linkToprototype, liveSiteLink, wireframes, githubRepo}) => `  <div id="${id}" class="cards_item">
-<img src="${image}" alt="" />
-
-<div class="body">
-<p class="live">
-<a href="#" class="readmore" >view project &rarr;</a>
-<span>
-<a href="${liveSiteLink}"><img src="./images/external-link.svg" alt=""
+jsonProjects.forEach(project => {
+})
+ const projectDomAarray = jsonProjects.map(({id, title, image, description , liveSiteLink, langs, githubRepo}) => {
+   
+  return  ` <div id="${id}" class="cards_item">
+    <img src="${image}" alt="" />
+    
+    <div class="body">
+  <p class="live">
+  <a href="#" class="readmore" >view project &rarr;</a>
+  <span>
+  <a href="${liveSiteLink}"><img src="./images/external-link.svg" alt=""
   /></a>
   <a href="${githubRepo}"> <img src="./images/iconmonstr-github-1.svg" alt="github profile" />
   </a>
-</span>
-  
-</p>
+  </span>
+
+  </p>
   <h3 class="title">${title}</h3>
   <br />
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    Exercitationem inventore in eveniet totam repellat non dolorem
-    praesentium, aspernatur ut aperiam!
-  </p>
-  
-</div>
-</div>`)
+  <p>${description}</p>
+  <br>
+  <p class="langs">${langs.map(lang => `<a>${lang}</a>`).join("")}</p>
+  </div>
+  </div>`
+
+ }
+)
 
 document.querySelector(".cards").innerHTML += projectDomAarray.join("")
 callback()
