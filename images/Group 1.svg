@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="863.354" height="852.116" viewBox="0 0 863.354 852.116">
+  <defs>
+    <filter id="Path_2" x="83.5" y="330.337" width="625.954" height="521.779" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_1" x="0" y="0" width="863.354" height="540.091" filterUnits="userSpaceOnUse">
+      <feOffset dy="27" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="21" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(-263 -243.163)">
+    <g transform="matrix(1, 0, 0, 1, 263, 243.16)" filter="url(#Path_2)">
+      <path id="Path_2-2" data-name="Path 2" d="M0,112.995,61.465,0H642.285V112.995Z" transform="translate(174 349.84) rotate(37)" fill="rgb(0, 63, 53)"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 263, 243.16)" filter="url(#Path_1)">
+      <path id="Path_1-2" data-name="Path 1" d="M0,112.995,72.249,0H754.981V112.995L10.944,117.14Z" transform="matrix(0.91, -0.41, 0.41, 0.91, 63, 343.08)" fill="rgb(0, 63, 53)"/>
+    </g>
+    <text id="super_fast_and_responsive" data-name="super fast and responsive" transform="translate(424.117 625.865) rotate(-24)" fill="#fff" font-size="44" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">super fast and responsive</tspan></text>
+    <text id="Need_a_website_" data-name="Need a website?" transform="matrix(0.799, 0.602, -0.602, 0.799, 543.62, 766.536)" fill="#fff" font-size="44" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Need a website?</tspan></text>
+  </g>
+</svg>
